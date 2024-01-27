@@ -31,19 +31,19 @@
                                     <div class="col-4">
                                         <div class="border-top border-3 border-primary pt-2">
                                             <h6 class="text-primary mb-1">Age:</h6>
-                                            <small>3-5 Years</small>
+                                            <small>{{ $subject->age }}</small>
                                         </div>
                                     </div>
                                     <div class="col-4">
                                         <div class="border-top border-3 border-success pt-2">
                                             <h6 class="text-success mb-1">Time:</h6>
-                                            <small>9-10 AM</small>
+                                            <small>{{ $subject->time }}AM</small>
                                         </div>
                                     </div>
                                     <div class="col-4">
                                         <div class="border-top border-3 border-warning pt-2">
                                             <h6 class="text-warning mb-1">Capacity:</h6>
-                                            <small>30 Kids</small>
+                                            <small>{{ $subject->capacity }} Kids</small>
                                         </div>
                                     </div>
                                 </div>
