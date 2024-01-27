@@ -13,7 +13,7 @@
                     
                         <div class="classes-item">
                             <div class="bg-light rounded-circle w-75 mx-auto p-3">
-                                <img class="img-fluid rounded-circle" src="{{ asset('assets/img/classes-1.jpg') }}" alt="">
+                                <img class="img-fluid rounded-circle" src="{{ asset('assets/img'.{{ $subject->image }} }}" alt="">
                             </div>
                             <div class="bg-light rounded p-4 pt-5 mt-n5">
                                 <a class="d-block text-center h3 mt-3 mb-4" href="">{{ $subject->name }}</a>
